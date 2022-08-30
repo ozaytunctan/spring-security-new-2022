@@ -1,0 +1,488 @@
+2022-07-08 11:18:14.370  INFO 25060 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 25060 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:18:14.376  INFO 25060 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:18:15.065  INFO 25060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:18:15.071  INFO 25060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:18:15.071  INFO 25060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:18:15.207  INFO 25060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:18:15.207  INFO 25060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 796 ms
+2022-07-08 11:18:15.366  INFO 25060 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@432f521f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2d7a9786, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d1cbd0f, org.springframework.security.web.header.HeaderWriterFilter@5ad5be4a, org.springframework.security.web.csrf.CsrfFilter@3291b443, org.springframework.security.web.authentication.logout.LogoutFilter@4b039c6d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@71c17a57, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4012d5bc, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7bab5898, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2da66a44, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3af7d855, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@797c3c3b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@366d8b97, org.springframework.security.web.session.SessionManagementFilter@737d100a, org.springframework.security.web.access.ExceptionTranslationFilter@435cc7f9, org.springframework.security.web.access.intercept.AuthorizationFilter@4aa21f9d]
+2022-07-08 11:18:15.551  INFO 25060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-08 11:18:15.559  INFO 25060 --- [main] c.o.SpringSecurityBasicApplication       : Started SpringSecurityBasicApplication in 1.49 seconds (JVM running for 2.301)
+2022-07-08 11:18:15.561  INFO 25060 --- [main] c.o.SpringSecurityBasicApplication       : =========================SpringSecurityBasicApplication.run() started...
+2022-07-08 11:18:23.095  INFO 25060 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:18:23.095  INFO 25060 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-08 11:18:23.096  INFO 25060 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-08 11:28:59.478  INFO 21476 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 21476 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:28:59.480  INFO 21476 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:29:00.135  INFO 21476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:29:00.141  INFO 21476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:29:00.141  INFO 21476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:29:00.262  INFO 21476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:29:00.262  INFO 21476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 751 ms
+2022-07-08 11:29:00.396  WARN 21476 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+2022-07-08 11:29:00.398  INFO 21476 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-08 11:29:00.406  INFO 21476 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-08 11:29:00.427 ERROR 21476 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.1.jar:2.7.1]
+	at com.ozaytunctan.SpringSecurityBasicApplication.main(SpringSecurityBasicApplication.java:14) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:289) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:114) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:99) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:87) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:285) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:298) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(AbstractRequestMatcherRegistry.java:118) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig.configure(SecurityConfig.java:16) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:221) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:319) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:96) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$3b96d87f.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:126) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 22 common frames omitted
+
+2022-07-08 11:32:20.745  INFO 21724 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 21724 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:32:20.748  INFO 21724 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:32:21.399  INFO 21724 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:32:21.405  INFO 21724 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:32:21.405  INFO 21724 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:32:21.527  INFO 21724 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:32:21.528  INFO 21724 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 750 ms
+2022-07-08 11:32:21.663  WARN 21724 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+2022-07-08 11:32:21.666  INFO 21724 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-08 11:32:21.674  INFO 21724 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-08 11:32:21.694 ERROR 21724 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.1.jar:2.7.1]
+	at com.ozaytunctan.SpringSecurityBasicApplication.main(SpringSecurityBasicApplication.java:14) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:289) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:114) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:99) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:87) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:285) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:298) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(AbstractRequestMatcherRegistry.java:118) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig.configure(SecurityConfig.java:16) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:221) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:319) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:96) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$76db118c.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:126) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 22 common frames omitted
+
+2022-07-08 11:32:54.802  INFO 20636 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 20636 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:32:54.804  INFO 20636 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:32:55.436  INFO 20636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:32:55.442  INFO 20636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:32:55.442  INFO 20636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:32:55.565  INFO 20636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:32:55.565  INFO 20636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 732 ms
+2022-07-08 11:32:55.695  WARN 20636 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+2022-07-08 11:32:55.697  INFO 20636 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-08 11:32:55.705  INFO 20636 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-08 11:32:55.725 ERROR 20636 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.1.jar:2.7.1]
+	at com.ozaytunctan.SpringSecurityBasicApplication.main(SpringSecurityBasicApplication.java:14) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:289) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:114) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:99) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:87) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:285) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:298) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(AbstractRequestMatcherRegistry.java:118) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig.configure(SecurityConfig.java:16) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:221) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:319) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:96) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$8f790b00.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:126) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 22 common frames omitted
+
+2022-07-08 11:33:36.567  INFO 24848 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 24848 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:33:36.569  INFO 24848 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:33:37.215  INFO 24848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:33:37.221  INFO 24848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:33:37.221  INFO 24848 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:33:37.346  INFO 24848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:33:37.346  INFO 24848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 746 ms
+2022-07-08 11:33:37.478  WARN 24848 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+2022-07-08 11:33:37.480  INFO 24848 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-08 11:33:37.488  INFO 24848 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-08 11:33:37.508 ERROR 24848 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.1.jar:2.7.1]
+	at com.ozaytunctan.SpringSecurityBasicApplication.main(SpringSecurityBasicApplication.java:14) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:289) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:114) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:99) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:87) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:285) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:298) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(AbstractRequestMatcherRegistry.java:118) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig.configure(SecurityConfig.java:16) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:221) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:319) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:96) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$76db118c.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:126) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 22 common frames omitted
+
+2022-07-08 11:33:55.183  INFO 9972 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 9972 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:33:55.185  INFO 9972 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:33:55.830  INFO 9972 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:33:55.836  INFO 9972 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:33:55.836  INFO 9972 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:33:55.958  INFO 9972 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:33:55.958  INFO 9972 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 741 ms
+2022-07-08 11:33:56.091  WARN 9972 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+2022-07-08 11:33:56.094  INFO 9972 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-08 11:33:56.102  INFO 9972 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-08 11:33:56.123 ERROR 9972 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.1.jar:2.7.1]
+	at com.ozaytunctan.SpringSecurityBasicApplication.main(SpringSecurityBasicApplication.java:14) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:289) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:114) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:99) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:87) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:285) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:298) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(AbstractRequestMatcherRegistry.java:118) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig.configure(SecurityConfig.java:16) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:221) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:319) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:96) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$78e81ac4.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:126) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 22 common frames omitted
+
+2022-07-08 11:34:32.309  INFO 10056 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 10056 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:34:32.311  INFO 10056 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:34:32.963  INFO 10056 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:34:32.969  INFO 10056 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:34:32.969  INFO 10056 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:34:33.089  INFO 10056 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:34:33.089  INFO 10056 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 745 ms
+2022-07-08 11:34:33.220  WARN 10056 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+2022-07-08 11:34:33.223  INFO 10056 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-07-08 11:34:33.231  INFO 10056 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-07-08 11:34:33.251 ERROR 10056 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springSecurityFilterChain' defined in class path resource [org/springframework/security/config/annotation/web/configuration/WebSecurityConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.21.jar:5.3.21]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-2.7.1.jar:2.7.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-2.7.1.jar:2.7.1]
+	at com.ozaytunctan.SpringSecurityBasicApplication.main(SpringSecurityBasicApplication.java:14) [classes/:na]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [javax.servlet.Filter]: Factory method 'springSecurityFilterChain' threw exception; nested exception is java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.3.21.jar:5.3.21]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 21 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Pattern cannot be null or empty
+	at org.springframework.util.Assert.hasText(Assert.java:289) ~[spring-core-5.3.21.jar:5.3.21]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:114) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:99) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.web.util.matcher.AntPathRequestMatcher.<init>(AntPathRequestMatcher.java:87) ~[spring-security-web-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:285) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry$RequestMatchers.antMatchers(AbstractRequestMatcherRegistry.java:298) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.AbstractRequestMatcherRegistry.antMatchers(AbstractRequestMatcherRegistry.java:118) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig.configure(SecurityConfig.java:16) ~[classes/:na]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.getHttp(WebSecurityConfigurerAdapter.java:221) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:319) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter.init(WebSecurityConfigurerAdapter.java:96) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at com.ozaytunctan.security.config.SecurityConfig$$EnhancerBySpringCGLIB$$18156dc2.init(<generated>) ~[classes/:na]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.init(AbstractConfiguredSecurityBuilder.java:338) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractConfiguredSecurityBuilder.doBuild(AbstractConfiguredSecurityBuilder.java:300) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.AbstractSecurityBuilder.build(AbstractSecurityBuilder.java:38) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration.springSecurityFilterChain(WebSecurityConfiguration.java:126) ~[spring-security-config-5.7.2.jar:5.7.2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.21.jar:5.3.21]
+	... 22 common frames omitted
+
+2022-07-08 11:35:19.749  INFO 7476 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 7476 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:35:19.751  INFO 7476 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:35:20.396  INFO 7476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:35:20.402  INFO 7476 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:35:20.402  INFO 7476 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:35:20.524  INFO 7476 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:35:20.524  INFO 7476 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 743 ms
+2022-07-08 11:35:20.692  INFO 7476 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@250a500b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75d982d3, org.springframework.security.web.context.SecurityContextPersistenceFilter@c3edf4c, org.springframework.security.web.header.HeaderWriterFilter@6c3659be, org.springframework.security.web.csrf.CsrfFilter@337bbfdf, org.springframework.security.web.authentication.logout.LogoutFilter@a098d76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6a1d3225, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@77b919a3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4f89331f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@671d1157, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@799ed4e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28da7d11, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@618ff5c2, org.springframework.security.web.session.SessionManagementFilter@2aff9dff, org.springframework.security.web.access.ExceptionTranslationFilter@7cbeac65, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c0e13b7]
+2022-07-08 11:35:20.879  INFO 7476 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-08 11:35:20.887  INFO 7476 --- [main] c.o.SpringSecurityBasicApplication       : Started SpringSecurityBasicApplication in 1.422 seconds (JVM running for 2.185)
+2022-07-08 11:35:20.889  INFO 7476 --- [main] c.o.SpringSecurityBasicApplication       : =========================SpringSecurityBasicApplication.run() started...
+2022-07-08 11:35:27.777  INFO 7476 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:35:27.778  INFO 7476 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-08 11:35:27.778  INFO 7476 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-08 11:36:15.120  INFO 23648 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 23648 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:36:15.122  INFO 23648 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:36:15.785  INFO 23648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:36:15.791  INFO 23648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:36:15.791  INFO 23648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:36:15.913  INFO 23648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:36:15.913  INFO 23648 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 761 ms
+2022-07-08 11:36:16.076  INFO 23648 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f1ef9d6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@17461db, org.springframework.security.web.context.SecurityContextPersistenceFilter@f88bfbe, org.springframework.security.web.header.HeaderWriterFilter@6535117e, org.springframework.security.web.csrf.CsrfFilter@480ad82c, org.springframework.security.web.authentication.logout.LogoutFilter@7f5b9db, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22752544, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4375b013, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3fd9e827, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@187e5235, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d8ab698, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4012d5bc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e682398, org.springframework.security.web.session.SessionManagementFilter@6fa13e6, org.springframework.security.web.access.ExceptionTranslationFilter@5ad5be4a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c5228e7]
+2022-07-08 11:36:16.262  INFO 23648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-08 11:36:16.269  INFO 23648 --- [main] c.o.SpringSecurityBasicApplication       : Started SpringSecurityBasicApplication in 1.439 seconds (JVM running for 2.229)
+2022-07-08 11:36:16.271  INFO 23648 --- [main] c.o.SpringSecurityBasicApplication       : =========================SpringSecurityBasicApplication.run() started...
+2022-07-08 11:36:22.238  INFO 23648 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:36:22.238  INFO 23648 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-08 11:36:22.239  INFO 23648 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-08 11:36:47.282  INFO 11872 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 11872 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:36:47.285  INFO 11872 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:36:47.951  INFO 11872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:36:47.957  INFO 11872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:36:47.958  INFO 11872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:36:48.083  INFO 11872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:36:48.084  INFO 11872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 768 ms
+2022-07-08 11:36:48.253  INFO 11872 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@54402c04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b3bb1f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a2929a4, org.springframework.security.web.header.HeaderWriterFilter@59bbe88a, org.springframework.security.web.csrf.CsrfFilter@7b676112, org.springframework.security.web.authentication.logout.LogoutFilter@640ab13c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3fba233d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@fe34b86, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@58d6b7b9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@43a65cd8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@797c3c3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26bbe604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f1a4795, org.springframework.security.web.session.SessionManagementFilter@ed91d8d, org.springframework.security.web.access.ExceptionTranslationFilter@6fa13e6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21ba2445]
+2022-07-08 11:36:48.446  INFO 11872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-08 11:36:48.454  INFO 11872 --- [main] c.o.SpringSecurityBasicApplication       : Started SpringSecurityBasicApplication in 1.471 seconds (JVM running for 2.276)
+2022-07-08 11:36:48.456  INFO 11872 --- [main] c.o.SpringSecurityBasicApplication       : =========================SpringSecurityBasicApplication.run() started...
+2022-07-08 11:36:50.603  INFO 11872 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:36:50.603  INFO 11872 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-08 11:36:50.604  INFO 11872 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-07-08 11:37:08.337  INFO 23768 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 23768 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:37:08.339  INFO 23768 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:37:08.991  INFO 23768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:37:08.997  INFO 23768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:37:08.997  INFO 23768 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:37:09.119  INFO 23768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:37:09.120  INFO 23768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 749 ms
+2022-07-08 11:37:09.285  INFO 23768 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@54402c04, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b3bb1f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a2929a4, org.springframework.security.web.header.HeaderWriterFilter@59bbe88a, org.springframework.security.web.csrf.CsrfFilter@7b676112, org.springframework.security.web.authentication.logout.LogoutFilter@640ab13c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3fba233d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@fe34b86, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@58d6b7b9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@43a65cd8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@797c3c3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26bbe604, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f1a4795, org.springframework.security.web.session.SessionManagementFilter@ed91d8d, org.springframework.security.web.access.ExceptionTranslationFilter@6fa13e6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21ba2445]
+2022-07-08 11:37:09.473  INFO 23768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-08 11:37:09.481  INFO 23768 --- [main] c.o.SpringSecurityBasicApplication       : Started SpringSecurityBasicApplication in 1.443 seconds (JVM running for 2.211)
+2022-07-08 11:37:09.483  INFO 23768 --- [main] c.o.SpringSecurityBasicApplication       : =========================SpringSecurityBasicApplication.run() started...
+2022-07-08 11:37:11.899  INFO 23768 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:37:11.899  INFO 23768 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-08 11:37:11.900  INFO 23768 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-08 11:37:57.960  INFO 24760 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 24760 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:37:57.962  INFO 24760 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:37:58.603  INFO 24760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:37:58.609  INFO 24760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:37:58.609  INFO 24760 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:37:58.731  INFO 24760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:37:58.731  INFO 24760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 738 ms
+2022-07-08 11:37:58.898  INFO 24760 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f1a4795, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6a6f6c7e, org.springframework.security.web.context.SecurityContextPersistenceFilter@4012d5bc, org.springframework.security.web.header.HeaderWriterFilter@446626a7, org.springframework.security.web.csrf.CsrfFilter@136965e3, org.springframework.security.web.authentication.logout.LogoutFilter@3e67f5f2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@76332405, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4601203a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6c5ddccd, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3fd9e827, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1cf0cacc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f736a16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1dbd580, org.springframework.security.web.session.SessionManagementFilter@4a2929a4, org.springframework.security.web.access.ExceptionTranslationFilter@f88bfbe, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@376c7d7d]
+2022-07-08 11:37:59.091  INFO 24760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-08 11:37:59.099  INFO 24760 --- [main] c.o.SpringSecurityBasicApplication       : Started SpringSecurityBasicApplication in 1.423 seconds (JVM running for 2.194)
+2022-07-08 11:37:59.101  INFO 24760 --- [main] c.o.SpringSecurityBasicApplication       : =========================SpringSecurityBasicApplication.run() started...
+2022-07-08 11:38:01.944  INFO 24760 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:38:01.944  INFO 24760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-08 11:38:01.945  INFO 24760 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-08 11:38:16.988  INFO 25448 --- [main] c.o.SpringSecurityBasicApplication       : Starting SpringSecurityBasicApplication using Java 1.8.0_202 on IB00C0848 with PID 25448 (C:\workspace\my-dev\spring-security-basic\target\classes started by ozay.tunctan in C:\workspace\my-dev\spring-security-basic)
+2022-07-08 11:38:16.990  INFO 25448 --- [main] c.o.SpringSecurityBasicApplication       : The following 1 profile is active: "dev"
+2022-07-08 11:38:17.646  INFO 25448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2022-07-08 11:38:17.652  INFO 25448 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-08 11:38:17.652  INFO 25448 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-08 11:38:17.775  INFO 25448 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-08 11:38:17.776  INFO 25448 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 755 ms
+2022-07-08 11:38:17.941  INFO 25448 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@38ed139b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a5272be, org.springframework.security.web.context.SecurityContextPersistenceFilter@28da7d11, org.springframework.security.web.header.HeaderWriterFilter@54d8c20d, org.springframework.security.web.csrf.CsrfFilter@6cff61fc, org.springframework.security.web.authentication.logout.LogoutFilter@10f7c76, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@20b9d5d5, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@121bb45b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@58ba5b30, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4f89331f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5624657a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15639440, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4dba773d, org.springframework.security.web.session.SessionManagementFilter@44536de4, org.springframework.security.web.access.ExceptionTranslationFilter@c3edf4c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1457fde]
+2022-07-08 11:38:18.126  INFO 25448 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2022-07-08 11:38:18.133  INFO 25448 --- [main] c.o.SpringSecurityBasicApplication       : Started SpringSecurityBasicApplication in 1.438 seconds (JVM running for 2.2)
+2022-07-08 11:38:18.135  INFO 25448 --- [main] c.o.SpringSecurityBasicApplication       : =========================SpringSecurityBasicApplication.run() started...
+2022-07-08 11:38:19.317  INFO 25448 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 11:38:19.317  INFO 25448 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-08 11:38:19.318  INFO 25448 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

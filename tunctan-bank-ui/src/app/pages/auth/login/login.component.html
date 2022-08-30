@@ -1,0 +1,27 @@
+<div class="login-container">
+  <div class="login-content-wrapper">
+    <div class="login-content">
+      <h1>Sign In</h1>
+      <form class="login-form" [formGroup]="loginForm" (submit)="doLogin()">
+
+        <!--   Username     -->
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input id="username" formControlName="userName" type="text" autocomplete="on">
+        </div>
+
+        <!--   Password     -->
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input id="password" formControlName="password" type="password" autocomplete="off">
+        </div>
+
+        <!--    Action Buttons    -->
+        <div class="action-containers">
+          <button type="submit" class="btn btn-login">Login</button>
+        </div>
+
+      </form>
+    </div>
+  </div>
+</div>
